@@ -2,3 +2,10 @@
 
 require:
     - play
+    - provided -> twitter4j-core 2.2.5
+repositories:
+    - provided:
+            type: local
+            artifact:   "${application.path}/jar/[module]-[revision].jar"
+            contains:
+            - provided -> *     
