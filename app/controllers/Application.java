@@ -10,8 +10,8 @@ import twitter4j.conf.ConfigurationBuilder;
 
 import java.util.*;
 
-import com.beercode.twitter.factory.BeerCodeFactory;
-import com.beercode.twitter.service.BeerCodeService;
+
+import com.beercode.twitter.service.TwitterService;
 
 /**
  * @author Goran Ojkic
@@ -21,9 +21,9 @@ public class Application extends Controller {
 
 	public static void index() {
 		try {
-			renderJSON(BeerCodeService.findSearch("#beercode"));
+			renderJSON(TwitterService.updateTimelineWithTerm("#ItsAwkwardWhen"));
 		} catch (TwitterException e) {
-			e.printStackTrace();
+			Logger.error("Error while retwiting: "+e.getMessage());
 		}
 
 	}
