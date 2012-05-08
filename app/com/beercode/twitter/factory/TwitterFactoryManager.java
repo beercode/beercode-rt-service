@@ -10,10 +10,10 @@ import twitter4j.conf.ConfigurationBuilder;
  */
 public class TwitterFactoryManager {
 
-	private static final String OAUTH_ACCESS_TOKEN_SECRET = "BeV5621q4MfKxlQ9pZjKbOftrcN19VYw288TMgCPcw0";
-	private static final String OAUTH_ACCESS_TOKEN = "62830160-XzJvMcmb1zfTZ4ON7WP9imJ7pCQCpsGSQxgGAr8VB";
-	private static final String OAUTH_CONSUMER_SECRET = "XcpDCoXuRyw2PK8KwYS2l1rKc5CF70RVs5WJEqCRUQ";
-	private static final String OAUTH_CONSUMER_KEY = "fs7yS8wib3greOTE9tqWEQ";
+	private static final String OAUTH_ACCESS_TOKEN_SECRET = "BeVxxxxxxxxxxxxxxxxxxxxxxxxx8TMgCPcw0";
+	private static final String OAUTH_ACCESS_TOKEN = "62830160-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+	private static final String OAUTH_CONSUMER_SECRET = "Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+	private static final String OAUTH_CONSUMER_KEY = "fs7yS8wixxxxxxxxxxxxxxxxb3greOTE9tqWEQ";
 	
 	private static TwitterFactory twitterFactory;
 
